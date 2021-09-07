@@ -16,7 +16,7 @@ export function Profile() {
       <View>
         <View style={styles.user}>
           <Text style={styles.greeting}>Hello,</Text>
-          <Text style={styles.username}>{user.firstName}</Text>
+          <Text style={styles.username}>{user.firstname}</Text>
         </View>
 
         <Text style={styles.message}>Today is victory day</Text>
