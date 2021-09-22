@@ -67,7 +67,7 @@ CDN_IMAGE=
 # 🔥 Additional functionalities
 
 - Implemented validations to alert the user to pick Category, Day, Month, Hour, Minute and Description when creating an appointment.
-- Improved the 'SignOut' functionality by implementing a Modal with Buttons 'ButtonNo' and 'ButtonYes'.
+- Improved the 'SignOut' functionality by implementing a Modal with Buttons.
 
 # 📄 Licence
 
