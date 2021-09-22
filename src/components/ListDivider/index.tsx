@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { View } from "react-native";
+import React, { useState } from 'react';
+import { View } from 'react-native';
 
-import { styles } from "./styles";
+import { styles } from './styles';
 
 type Props = {
   isCentered?: boolean;

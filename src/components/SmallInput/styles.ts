@@ -1,6 +1,6 @@
-import { Inter_400Regular } from "@expo-google-fonts/inter";
-import { StyleSheet } from "react-native";
-import { theme } from "../../global/styles/theme";
+import { Inter_400Regular } from '@expo-google-fonts/inter';
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {

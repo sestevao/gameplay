@@ -1,22 +1,25 @@
-import React from "react";
-import { View, Text, Image, Alert, ActivityIndicator } from "react-native";
+import React from 'react';
+import { View, Text, Image, Alert, ActivityIndicator } from 'react-native';
 
-import { styles } from "./styles";
-import { theme } from "../../global/styles/theme";
-import IllustrationImg from "../../assets/illustration.png";
+import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
+import IllustrationImg from '../../assets/illustration.png';
 
-import { Background } from "../../components/Background";
-import { ButtonIcon } from "../../components/ButtonIcon";
-import { useAuth } from "../../hooks/auth";
+import { Background } from '../../components/Background';
+import { ButtonIcon } from '../../components/ButtonIcon';
+
+import { useAuth } from '../../hooks/auth';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export function SignIn() {
+  //AsyncStorage.clear();
   const { signIn, loading } = useAuth();
 
   async function handleSignIn() {
     try {
       await signIn();
     } catch (error) {
-      Alert.alert("Error:" + error);
+      Alert.alert("ERROR: " + error);
     }
   }
 
@@ -26,7 +29,7 @@ export function SignIn() {
         <Image
           source={IllustrationImg}
           style={styles.image}
-          resizeMode="stretch"
+          resizeMode='stretch'
         />
 
         <View style={styles.content}>
@@ -42,7 +45,7 @@ export function SignIn() {
             games with your friends
           </Text>
 
-          {loading ? <ActivityIndicator color={theme.colors.primary} /> : <ButtonIcon title="Enter with Discord" onPress={handleSignIn} />}
+          {loading ? <ActivityIndicator color={theme.colors.primary} /> : <ButtonIcon title='Enter with Discord' onPress={handleSignIn} />}
         </View>
       </View>
     </Background>

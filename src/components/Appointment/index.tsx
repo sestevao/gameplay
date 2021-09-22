@@ -1,15 +1,15 @@
-import React from "react";
-import { Text, View } from "react-native";
-import { RectButton, RectButtonProps } from "react-native-gesture-handler";
-import { LinearGradient } from "expo-linear-gradient";
+import React from 'react';
+import { Text, View } from 'react-native';
+import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
+import { LinearGradient } from 'expo-linear-gradient';
 
-import { theme } from "../../global/styles/theme";
-import { styles } from "./styles";
-import PlayerSvg from "../../assets/player.svg";
-import CalendarSvg from "../../assets/calendar.svg";
+import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
+import PlayerSvg from '../../assets/player.svg';
+import CalendarSvg from '../../assets/calendar.svg';
 
-import { categories } from "../../utils/categories";
-import { GuildIcon } from "../GuildIcon";
+import { categories } from '../../utils/categories';
+import { GuildIcon } from '../GuildIcon';
 
 import { GuildProps } from '../Guild';
 
@@ -38,15 +38,17 @@ export function Appointment({ data, ...rest }: Props) {
           style={styles.guildIconContainer}
           colors={[secondary50, secondary70]}
         >
-          <GuildIcon />
+          <GuildIcon guildId={data.guild.id} iconId={data.guild.icon} />
         </LinearGradient>
 
         <View style={styles.content}>
           <View style={styles.header}>
             <View style={styles.headerTitle}>
               <Text style={styles.title}>{data.guild.name}</Text>
+
               <Text style={styles.subtitle}>{data.subtitle}</Text>
             </View>
+
             <Text style={styles.category}>{category.title}</Text>
           </View>
 
@@ -61,7 +63,7 @@ export function Appointment({ data, ...rest }: Props) {
               <PlayerSvg fill={owner ? primary : on} />
 
               <Text style={[styles.player, { color: owner ? primary : on }]}>
-                {owner ? "Host" : "Visitor"}
+                {owner ? 'Host' : 'Visitor'}
               </Text>
             </View>
           </View>

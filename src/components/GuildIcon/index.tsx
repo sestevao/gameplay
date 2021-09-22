@@ -1,20 +1,26 @@
-import React from "react";
-import { Image, View } from "react-native";
+import React from 'react';
+import { Image, View } from 'react-native';
 
+import { styles } from './styles';
 import DiscordSvg from '../../assets/discord.svg';
-import { styles } from "./styles";
 
-export function GuildIcon() {
-  const uri =
-    "https://e7.pngegg.com/pngimages/618/889/png-clipart-counter-strike-global-offensive-logo-stencil-art-font-cs-go-cloud-9-angle-logo-thumbnail.png";
+const { CDN_IMAGE } = process.env;
+
+type Props = {
+  guildId: string;
+  iconId: string | null;
+}
+
+export function GuildIcon({ guildId, iconId }: Props) {
+  const uri = `${CDN_IMAGE}/icons/${guildId}/${iconId}.png`;
 
   return (
     <View style={styles.container}>
-      <Image
+      {iconId ? <Image
         source={{ uri }}
         style={styles.image}
-        resizeMode="cover"
-      />
+        resizeMode='cover'
+      /> : <DiscordSvg width={40} height={40} />}
     </View>
   );
 }

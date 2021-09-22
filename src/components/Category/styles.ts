@@ -1,12 +1,12 @@
-import { StyleSheet } from "react-native";
-import { theme } from "../../global/styles/theme";
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
     width: 104,
     height: 120,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
     borderRadius: 8,
     marginRight: 8,
   },
@@ -14,8 +14,8 @@ export const styles = StyleSheet.create({
     width: 100,
     height: 116,
     borderRadius: 8,
-    alignItems: "center",
-    justifyContent: "space-between",
+    alignItems: 'center',
+    justifyContent: 'space-between',
     paddingVertical: 20,
   },
   title: {
@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
   check: {
     width: 12,
     height: 12,
-    position: "absolute",
+    position: 'absolute',
     top: 7,
     right: 7,
     backgroundColor: theme.colors.secondary100,
@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
   checked: {
     width: 10,
     height: 10,
-    position: "absolute",
+    position: 'absolute',
     top: 7,
     right: 7,
     backgroundColor: theme.colors.primary,

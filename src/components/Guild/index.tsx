@@ -1,11 +1,12 @@
-import React from "react";
-import { TouchableOpacity, TouchableOpacityProps, View, Text } from 'react-native';
+import React from 'react';
+import { TouchableOpacity, TouchableOpacityProps, View, Text, Alert } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
-import { styles } from "./styles";
-import { theme } from "../../global/styles/theme";
+import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
 
-import { GuildIcon } from "../GuildIcon";
+import { GuildIcon } from '../GuildIcon';
+import { Button } from '../Button';
 
 export type GuildProps = {
   id: string;
@@ -19,13 +20,25 @@ type Props = TouchableOpacityProps & {
 }
 
 export function Guild({ data, ...rest }: Props) {
+
+  function handleDeleteGuild() {
+    Alert.alert("delete");
+
+    /* const storage = await AsyncStorage.removeItem(COLLECTION_APPOINTMENTS);
+    const appointments = storage ? JSON.parse(storage) : [];
+
+    await AsyncStorage.setItem(COLLECTION_APPOINTMENTS, JSON.stringify([...appointments]));
+
+    navigation.navigate('Home');  */
+  }
+
   return (
     <TouchableOpacity
       style={styles.container}
       activeOpacity={0.7}
       {...rest}
     >
-      <GuildIcon />
+      <GuildIcon guildId={data.id} iconId={data.icon} />
 
       <View style={styles.content}>
         <View>
@@ -33,10 +46,12 @@ export function Guild({ data, ...rest }: Props) {
 
           <Text style={styles.type}>{data.owner ? 'Administrator' : 'Guest'}</Text>
         </View>
+
+        <Button title="DEL" onPress={handleDeleteGuild} />
       </View>
 
       <Feather
-        name="chevron-right"
+        name='chevron-right'
         color={theme.colors.heading}
         size={24}
       />
