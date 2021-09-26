@@ -2,45 +2,44 @@
 
 # 💻 Project
 
-🎮 Application to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends with this App that has Discord authentication. 🎮
+🎮 This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🎮
 
-<span style="color: white; font-weight: bold;">Game</span><span style="color: red; font-weight: bold;">Play</span> allows you to SignIn authenticating with Discord. You can schedule a game and invite your friend by sharing a link.
+<span style="color: white; font-weight: bold;">Game</span><span style="color: red; font-weight: bold;">Play</span> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**.
 
-In order to invite people you need to be a server owner.
+In order to invite people you need to be a server owner. So, you need create your own server on Discord.
 
-So, you need create your own server on Discord.
-It has SignIn and SignOut functionalities.
+It has **SignIn** and **SignOut** functionalities.
 
 # 🛠️ Features
 
-- OAuth2 Social Authentication with Discord server.
-- Gets user registration profile in Discord (username and avatar);
-- Lists the Discord servers that the user is part of;
+- `OAuth2 Social Authentication` with Discord server.
+- Gets user registration profile in `Discord` (username and avatar);
+- Lists the `Discord servers` that the user is part of;
 - Allows you to schedule matches;
 - Allows you to filter matches by category;
 - Displays if the match was scheduled on its own server (host) or on other servers (guest);
 - Share the invitation to join the user's server;
 - Allows you to redirect the user to your own server;
-- Provides the Logout function.
+- Provides the `Logout` function.
 
 # ✨ Technologies
 
-- React Native
-- Typescript
-- Expo
-- Context API
-- Async Storage
-- Vector Icons
-- React Native Svg e Svg Transform
-- Axios
-- Gradient colors
-- OAuth2 Discord
-- Expo Google Fonts
-- React Navigation Stack
-- React Native Gesture Handler
-- Expo Authentication
-- React Native Share
-- Deep Link
+- [React Native](https://reactnative.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Expo](https://docs.expo.dev/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [Async Storage](https://reactnative.dev/docs/asyncstorage)
+- [Vector Icons](https://docs.expo.dev/guides/icons/)
+- [React Native Svg](https://github.com/react-native-svg/react-native-svg) & [Svg Transform](https://github.com/kristerkari/react-native-svg-transformer)
+- [Axios](https://axios-http.com/docs/intro)
+- [Gradient colors](https://github.com/react-native-linear-gradient/react-native-linear-gradient)
+- [OAuth2 Discord](https://discord.com/developers/docs/topics/oauth2)
+- [Expo Google Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
+- [React Navigation Stack](https://reactnavigation.org/docs/stack-navigator/)
+- [React Native Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/docs/)
+- [Expo Authentication/Auth Session](https://docs.expo.dev/versions/latest/sdk/auth-session/)
+- [React Native Share](https://docs.expo.dev/versions/latest/react-native/share/)
+- [Deep Link](https://reactnavigation.org/docs/deep-linking/)
 
 # 🔖 Layout
 
@@ -74,3 +73,5 @@ CDN_IMAGE=
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
 <br />
+
+Made with 💜 by sestevao 👋

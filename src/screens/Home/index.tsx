@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { View, FlatList } from 'react-native';
+import { View, FlatList, Button } from 'react-native';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -12,6 +12,7 @@ import { Background } from '../../components/Background';
 import { ListHeader } from '../../components/ListHeader';
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { Profile } from '../../components/Profile';
+import { Button } from '../../components/Button';
 import { Load } from '../../components/Load';
 
 import { COLLECTION_APPOINTMENTS } from '../../config/database';
@@ -75,6 +76,8 @@ export function Home() {
           style={styles.matches}
           showsVerticalScrollIndicator={false}
         />
+
+        <Button title="DEL" />
       </>}
     </Background>
   );

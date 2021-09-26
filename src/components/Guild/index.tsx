@@ -46,8 +46,6 @@ export function Guild({ data, ...rest }: Props) {
 
           <Text style={styles.type}>{data.owner ? 'Administrator' : 'Guest'}</Text>
         </View>
-
-        <Button title="DEL" onPress={handleDeleteGuild} />
       </View>
 
       <Feather
