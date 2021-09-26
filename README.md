@@ -4,7 +4,7 @@
 
 🎮 This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🎮
 
-<span style="color: white; font-weight: bold;">Game `#f03c15` </span><span style="color: red; font-weight: bold;">Play</span> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**.
+<span style="color: white; font-weight: bold;">Game</span><span style="color: red; font-weight: bold;">Play</span> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**.
 
 In order to invite people you need to be a server owner. So, you need create your own server on Discord.
 
