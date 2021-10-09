@@ -2,25 +2,21 @@
 
 # 💻 Project
 
-🎮 This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🎮
+📱🕹️ This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🕹️📱
 
-<span style="color: white; font-weight: bold;">Game</span><span style="color: red; font-weight: bold;">Play</span> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**.
-
-In order to invite people you need to be a server owner. So, you need create your own server on Discord.
-
-It has **SignIn** and **SignOut** functionalities.
+<b style="color: white">Game</b><b style="color: red">Play</b> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**. In order to invite people you need to be a server owner. So, you need create your own server on Discord. It has **SignIn** and **SignOut** functionalities.
 
 # 🛠️ Features
 
-- `OAuth2 Social Authentication` with Discord server.
-- Gets user registration profile in `Discord` (username and avatar);
-- Lists the `Discord servers` that the user is part of;
-- Allows you to schedule matches;
-- Allows you to filter matches by category;
-- Displays if the match was scheduled on its own server (host) or on other servers (guest);
-- Share the invitation to join the user's server;
-- Allows you to redirect the user to your own server;
-- Provides the `Logout` function.
+- [x] `OAuth2 Social Authentication` with Discord server
+- [x] Gets user registration profile in `Discord` (username and avatar)
+- [x] Lists the `Discord servers` that the user is part of
+- [x] Allows you to schedule matches
+- [x] Allows you to filter matches by category
+- [x] Displays if the match was scheduled on its own server **host** or on other servers **guest**
+- [x] Share the invitation to join the user's server
+- [x] Allows you to redirect the user to your own server
+- [x] Provides the `Logout` function
 
 # ✨ Technologies
 
@@ -41,27 +37,33 @@ It has **SignIn** and **SignOut** functionalities.
 - [React Native Share](https://docs.expo.dev/versions/latest/react-native/share/)
 - [Deep Link](https://reactnavigation.org/docs/deep-linking/)
 
-# 🔖 Layout
+# 🎨 Layout
 
 You can view the project layout through [this link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). You must have an account on [Figma](http://figma.com/) to access it.
 
-# 🚀 Running the project
+# 🚀 Configuration and Running the project
 
 Use **yarn** or **npm install** to install project dependencies. Then start the project.
 
 ```bash
-expo start
-```
+# Clone this repository
+$ gh repo clone sestevao/gameplay
 
-Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the **.env** file (remove the example from the .env.example file).
+# install dependencies
+$ yarn install
 
-```bash
+# start the application
+$ expo start
+
+# Set the .env file to your App settings (remove the example from the .env.example file)
 REDIRECT_URI=
 SCOPE=
 RESPONSE_TYPE=token
 CLIENT_ID=
 CDN_IMAGE=
 ```
+
+Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the **.env** file (remove the example from the .env.example file).<br>
 
 # 🔥 Additional functionalities
 
@@ -72,6 +74,6 @@ CDN_IMAGE=
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
-<br />
+<hr />
 
 Made with 💜 by sestevao 👋

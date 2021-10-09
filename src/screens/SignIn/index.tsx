@@ -45,7 +45,7 @@ export function SignIn() {
             games with your friends
           </Text>
 
-          {loading ? <ActivityIndicator color={theme.colors.primary} /> : <ButtonIcon title='Enter with Discord' onPress={handleSignIn} />}
+          {loading ? <ActivityIndicator color={theme.colors.primary} /> : <ButtonIcon title='Login with Discord' onPress={handleSignIn} />}
         </View>
       </View>
     </Background>

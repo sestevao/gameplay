@@ -80,7 +80,7 @@ function AuthProvider({ children }: AuthProviderProps) {
 
   async function signOut() {
     setUser({} as User);
-    BackHandler.exitApp();
+    // BackHandler.exitApp();
     await AsyncStorage.removeItem(COLLECTION_USERS);
   }
 

@@ -24,9 +24,19 @@ export function Profile() {
   }
 
   function handleSignOut() {
-    signOut();
+    Alert.alert('Logout', 'Deseja sair do GamePlay?',
+      [
+        {
+          text: 'Não',
+          style: 'cancel'
+        },
+        {
+          text: 'Sim',
+          onPress: () => signOut()
+        }
+      ]
+    )
   }
-
 
   return (
     <View style={styles.container}>
