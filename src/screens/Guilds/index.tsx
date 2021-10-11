@@ -3,6 +3,7 @@ import { View, FlatList } from 'react-native';
 
 import { Guild, GuildProps } from '../../components/Guild';
 import { ListDivider } from '../../components/ListDivider';
+import { Empty } from '../../components/Empty';
 import { Load } from '../../components/Load';
 
 import { api } from '../../services/api';
@@ -68,6 +69,10 @@ export function Guilds({ handleGuildSelect }: Props) {
 
   return (
     <View style={styles.container}>
+      {!loading && !guilds.length && (
+        <Empty title="Ops... Unable to load your guilds..." />
+      )}
+
       {loading ? <Load /> :
         <FlatList
           data={guilds}
