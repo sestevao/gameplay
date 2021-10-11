@@ -3,13 +3,13 @@
   <pre>🕹️ Help you connect and organize fun time and play with friends 🕹️</pre>
 </div>
 
-![cover](.github/cover.png?style=flat)
-
 # 💻 About the Project
 
 📱🕹️ This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🕹️📱
 
 <b style="color: white">Game</b><b style="color: red">Play</b> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**. In order to invite people you need to be a server owner. So, you need create your own server on Discord. It has **SignIn** and **SignOut** functionalities.
+
+![cover](.github/cover.png?style=flat)
 
 # 🛠️ Features
 
