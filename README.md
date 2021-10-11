@@ -3,7 +3,7 @@
   <pre>🕹️ Help you connect and organize fun time and play with friends 🕹️</pre>
 </div>
 
-# 💻 About the Project
+## 💻 About the Project
 
 📱🕹️ This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🕹️📱
 
@@ -11,7 +11,7 @@
 
 ![cover](.github/cover.png?style=flat)
 
-# 🛠️ Features
+## 🛠️ Features
 
 - [x] `OAuth2 Social Authentication` with Discord server
 - [x] Gets user registration profile in `Discord` (username and avatar)
@@ -29,7 +29,7 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://docs.expo.dev/)
 
-# ✨ Technologies
+## ✨ Technologies
 
 - [Context API](https://reactjs.org/docs/context.html)
 - [Async Storage](https://reactnative.dev/docs/asyncstorage)
@@ -45,11 +45,11 @@
 - [React Native Share](https://docs.expo.dev/versions/latest/react-native/share/)
 - [Deep Link](https://reactnavigation.org/docs/deep-linking/)
 
-# 🎨 Layout
+## 🎨 Layout
 
 You can view the project layout through [this link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). You must have an account on [Figma](http://figma.com/) to access it.
 
-# ✅ Getting started
+## ✅ Getting started
 
 Use **yarn** or **npm install** to install project dependencies. Then start the project.
 
@@ -73,7 +73,7 @@ CDN_IMAGE=
 
 Remember to create your App on the Discord server to get the authentication credentials. Then define your App settings in the **.env** file (remove the example from the .env.example file).<br>
 
-# 🔥 Additional functionalities
+## 🔥 Additional functionalities
 
 - Improved the **SignOut** functionality by implementing a Modal with Buttons ✅
 - Toasts
@@ -88,7 +88,7 @@ Remember to create your App on the Discord server to get the authentication cred
 - Logout modal
 - Animations in Toasts
 
-# 📄 Licence
+## 📄 Licence
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
