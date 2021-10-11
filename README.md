@@ -1,6 +1,11 @@
+<div align="center">
+  <img src="https://github.com/sestevao/gameplay/blob/main/.github/logo.png" alt="icon" width="150" />
+  <pre>🕹️ Help you connect and organize fun time and play with friends 🕹️</pre>
+</div>
+
 ![cover](.github/cover.png?style=flat)
 
-# 💻 Project
+# 💻 About the Project
 
 📱🕹️ This application was created to help you connect and organize fun time and play with friends. Create groups to play your favorite games with your friends and that has Discord authentication. 🕹️📱
 
@@ -18,11 +23,14 @@
 - [x] Allows you to redirect the user to your own server
 - [x] Provides the `Logout` function
 
-# ✨ Technologies
+## 🚀 Requirements
 
 - [React Native](https://reactnative.dev/)
-- [Typescript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://docs.expo.dev/)
+
+# ✨ Technologies
+
 - [Context API](https://reactjs.org/docs/context.html)
 - [Async Storage](https://reactnative.dev/docs/asyncstorage)
 - [Vector Icons](https://docs.expo.dev/guides/icons/)
@@ -41,7 +49,7 @@
 
 You can view the project layout through [this link](https://www.figma.com/file/0kv33XYjvOgvKGKHBaiR07/GamePlay-NLW-Together?node-id=58913%3A83). You must have an account on [Figma](http://figma.com/) to access it.
 
-# 🚀 Configuration and Running the project
+# ✅ Getting started
 
 Use **yarn** or **npm install** to install project dependencies. Then start the project.
 
@@ -67,8 +75,18 @@ Remember to create your App on the Discord server to get the authentication cred
 
 # 🔥 Additional functionalities
 
-- Implemented validations to alert the user to pick Category, Day, Month, Hour, Minute and Description when creating an appointment.
-- Improved the 'SignOut' functionality by implementing a Modal with Buttons.
+- Improved the **SignOut** functionality by implementing a Modal with Buttons ✅
+- Toasts
+- Delete match
+- Empty list component ✅
+- Customize Animated **Loading**
+- Show game banner in server details
+- Validate Date and Time
+  - valid date
+  - valid time
+  - date and time in the future
+- Logout modal
+- Animations in Toasts
 
 # 📄 Licence
 
