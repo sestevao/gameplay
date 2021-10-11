@@ -92,6 +92,7 @@ Remember to create your App on the Discord server to get the authentication cred
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
-<hr />
+---
 
-Made with 💜 by sestevao 👋
+<p align="center"><sub>made with 💜 by sestevao</sub></p>
+
