@@ -9,6 +9,8 @@
 
 <b style="color: white">Game</b><b style="color: red">Play</b> allows you to **SignIn** authenticating with Discord. You can schedule a game and invite your friend by sharing a **link**. In order to invite people you need to be a server owner. So, you need create your own server on Discord. It has **SignIn** and **SignOut** functionalities.
 
+Application built on the React Native track from Next Level Week NLW#06 from @rocketseat during April 19-25, 2021.
+
 ![cover](.github/cover.png?style=flat)
 
 ## 🛠️ Features
